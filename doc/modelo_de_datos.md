@@ -53,10 +53,21 @@ Documento que se emite a los alumnos con la información relevante
 
 |Tipo|Nombre|Detalles
 |:--|:--|:--
-|_String_|Nombre|Nombre de la actividad que se certifica|
-| _String_ | ID   | Identificación del certificado (número de 3 dígitos) |
+|_String_|Nombre|Nombre de la actividad que se certifica o tipo de actividad|
+| _String_ | ID   | Identificación del certificado |
 | _Integer_ | ECTS   | Número de ECTSs |
-| _Integer_ | IDToken   | Token recibido (NFT) |
+| _String[]_ | Competencias asociadas   | Competencias trabajadas en la actividad |
+
+
+## _Monedero_
+
+Monedero que tiene cada participante con sus datos
+
+|Tipo|Nombre|Detalles
+|:--|:--|:--
+| _String_ | ID   | Identificación del monedero) |
+|_String_|email| Identificación del propietario|
+| _Integer_ | Tokens   | Cantidad de tokens recibidos |
 
 # Transacciones
 
