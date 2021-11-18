@@ -87,11 +87,20 @@ Valida una actividad a un alumno cuando la completa
 |  `String IDActividad` | ID de la actividad a validar| 
 |  `String email` | Email de la persona validada| 
 
+## `RecibirNFT` {-}
+
+NFTs que reciben los responsables comerciales
+|||
+|:--|:--|
+|  `String IDToken` | ID del Token| 
+|  `String email` | Email del responsable comercial|
+
 ## `ConsumirNFT` {-}
 
-Consume el NFT cuando en la recompensa que desee el aljumno
+Consume el NFT de la recompensa que desee el alumno
 |||
 |:--|:--|
 |  `String IDToken` | ID del Token| 
 |  `String emailA` | Email del alumno|
 |  `String emailR` | Email de la persona responsable| 
+
