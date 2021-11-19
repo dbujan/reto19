@@ -34,18 +34,6 @@ Persona responsable de recibir los NFT de los alumnos cuando quieren canjearlos.
 
 # Assets
 
-## _Actividad_
-
-Cada una de las actividades que proponen los profesores
-
-
-|Tipo|Nombre|Detalles
-|:--|:--|:--
-|_String_|Nombre|Nombre de la actividad|
-| _String_ | ID   | Identificación de la actividad (número de 3 dígitos) |
-| _Integer_ | ECTS   | Número de ECTSs de la actividad |
-| _Profesor_ | Profesor   | Profesor encargado de esa actividad |
-
 
 ## _Certificado_
 
@@ -57,9 +45,10 @@ Documento que se emite a los alumnos con la información relevante
 | _String_ | ID   | Identificación del certificado |
 | _Integer_ | ECTS   | Número de ECTSs |
 | _String[]_ | Competencias asociadas   | Competencias trabajadas en la actividad |
+| _Profesor_ | Profesor   | Profesor encargado de esa actividad |
 
 
-## _Monedero_
+## _EduToken_
 
 Monedero que tiene cada participante con sus datos
 
@@ -72,7 +61,7 @@ Monedero que tiene cada participante con sus datos
 # Transacciones
 
 
-## `RegistrarActividad` {-}
+## `EmitirCertificado` {-}
 
 Dar de alta una actividad en el sistema
 
@@ -80,38 +69,18 @@ Dar de alta una actividad en el sistema
 |:--|:--|
 |  `String IDActividad` | ID de la actividad a registrar| 
 |  `String email` | Email de la persona responsable| 
-
-## `ApuntarseActividad` {-}
-
-Apunta a un alumno en una actividad
-|||
-|:--|:--|
-|  `String IDActividad` | ID de la actividad| 
-|  `String email` | Email de la persona apuntada| 
+|  `Int cantidad` | Cantidad de EduTokens| 
 
 
-## `ValidarActividad` {-}
 
-Valida una actividad a un alumno cuando la completa
-|||
-|:--|:--|
-|  `String IDActividad` | ID de la actividad a validar| 
-|  `String email` | Email de la persona validada| 
 
-## `RecibirNFT` {-}
+## `TransferirEdutokens` {-}
 
 NFTs que reciben los responsables comerciales
 |||
 |:--|:--|
 |  `String IDToken` | ID del Token| 
-|  `String email` | Email del responsable comercial|
-
-## `ConsumirNFT` {-}
-
-Consume el NFT de la recompensa que desee el alumno
-|||
-|:--|:--|
-|  `String IDToken` | ID del Token| 
-|  `String emailA` | Email del alumno|
-|  `String emailR` | Email de la persona responsable| 
+|  `String emailR` | Email del responsable comercial|
+|  `String emailA` | Email alumno|
+|  `Int cantidad` | Cantidad de EduTokens| 
 
