@@ -1,3 +1,3 @@
-# Reto 19
+# Reto 19. Convierte tu campus universitario en una "experiencia"
 
-## _Convierte tu campus universitario en una "experiencia"_
+## ¿Por qué no llevar los conceptos de customer experience y customer journey a la Universidad y hacer de esta una experiencia única? Si las marcas y empresas lo hacen, ¿por qué no las universidades? Aunque estudiar una carrera universitaria es toda una experiencia en sí misma, no existe hoy un concepto global de experiencia en los campus universitarios que vincule estudiantes de diferentes centros y carreras, profesores con alumnos, asociaciones, actividades, etc. Os animo a crear ese modelo de campus experience que integre todas estas relaciones, actividades y que potencie aquellos valores que engrandecen al ser humano. Aquí todos y todo tiene cabida. Podéis hacerlo a través de multitud de herramientas (plataformas, web, etc), incluso utilizando nuevos habilitadores tecnológicos como el blockchain (por ejemplo, ¿por qué no una criptomoneda propias dentro de la universidad para las actividades?) y dispositivos inteligentes como el carnet universitario. ¡Todo un reto! ¿Os animáis?
